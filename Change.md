@@ -1,7 +1,11 @@
 Change Log
+
 Based on Feedback: 
+
 – Fixed the enquiry navigation so it works properly. 
-– Made sure the navigation is responsive across all pages. 
+
+– Made sure the navigation is responsive across all pages.
+
 – Added comments to my code to explain what each part does.
 
 My Updates:
