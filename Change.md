@@ -33,3 +33,5 @@ My Updates:
 – 23 Sep: Completely changed the typography and colour scheme of the website. 
 
 – 23 Sep: Edited content and layout to match the new design and improve clarity.
+
+– 25 Sep: Added image hover responsiveness to improve interactivity and user experience.
