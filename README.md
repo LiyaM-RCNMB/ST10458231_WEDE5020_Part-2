@@ -8,12 +8,15 @@ In Part 1, I wrote the proposal, built the structure using HTML and organized ev
 Screenshots of the website
 
 Mobile:
+
 <img width="263" height="479" alt="Phone screenshot (2)" src="https://github.com/user-attachments/assets/a745abf5-6798-40f7-847c-36ee2c33c704" />
 
 Tablet:
+
 <img width="391" height="546" alt="Tablet screenshot (2)" src="https://github.com/user-attachments/assets/29a4723b-35b7-4912-8858-20784fa17c09" />
 
 Desktop:
+
 <img width="1363" height="641" alt="Top part of desktop screenshot (2)" src="https://github.com/user-attachments/assets/d1d11ca8-d734-424a-83ee-8aee56c95d6f" />
 
 <img width="1362" height="631" alt="Bottom part of desktop screenshot (2)" src="https://github.com/user-attachments/assets/5b3778b0-05e1-47dd-b179-1f2b5d1229ff" />
@@ -43,3 +46,7 @@ build-a-small-business-website [Accessed 23 August 2025].
 
 • The Perfume Co. Africa. 2025. Black Oud. [Online]. Available at: 
 https://www.theperfumecoafrica.com/product-page/black-oud [Accessed 27 August 2025].  
+
+• The Perfume Co. Africa. N.d. The Perfume Co. Africa. [Online]. Available at:  
+https://www.theperfumecoafrica.com/ [Accessed 23 August 2025].  
+
