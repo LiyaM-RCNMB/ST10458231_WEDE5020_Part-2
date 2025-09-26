@@ -1,0 +1,145 @@
+/* --- General Page Styling --- */
+body {
+  margin: 0; /* Remove default browser spacing */
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Playful, bubbly font */
+  background-color: #ffe6f0; /* Soft pink background */
+  color: #5a2947; /* Deep rose text for contrast */
+  line-height: 1.6; /* Improve readability */
+}
+
+/* --- Header Section --- */
+header {
+  background-color: #ffb6c1; /* Light pink background */
+  padding: 1rem; /* Space around content */
+  text-align: center; /* Center the content */
+  border-bottom: 4px dashed #ff69b4; /* Fun dashed bottom border */
+}
+
+header h1 {
+  font-family: "Pacifico", cursive; /* Whimsical font for Hello Kitty feel */
+  font-size: 2.5rem; /* Larger font for heading */
+  color: #d4006e; /* Hello Kitty signature pink */
+  margin: 0.5rem 0; /* Space above and below */
+}
+
+/* --- Navigation --- */
+nav {
+  background-color: #fff0f5; /* Light pink nav background */
+  text-align: center; /* Center nav links */
+  padding: 1rem 0; /* Vertical spacing */
+  display: flex; /* Arrange links horizontally */
+  justify-content: center; /* Center the links */
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 1rem; /* Space between links */
+}
+
+nav a {
+  color: #ff69b4; /* Hot pink text */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Emphasize nav links */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  color: #d4006e; /* Deep pink highlight on hover or active */
+}
+
+/* --- Main Content Area --- */
+main {
+  padding: 2rem; /* Space around main content */
+  max-width: 1000px; /* Limit content width */
+  margin: auto; /* Center the content */
+  background-color: #fff0f5; /* Very light pink for content background */
+  border-radius: 15px; /* Rounded corners for softness */
+  box-shadow: 0 0 15px rgba(255, 192, 203, 0.5); /* Soft pink glow */
+}
+
+/* --- Subheadings --- */
+h2 {
+  font-family: "Pacifico", cursive; /* Match header style */
+  color: #ff69b4; /* Consistent pink for subheadings */
+  border-bottom: 2px dotted #ffb6c1; /* Decorative bottom border */
+  padding-bottom: 0.3rem; /* Space under text */
+}
+
+/* --- Images --- */
+img {
+  display: block; /* Make image a block element */
+  margin: 1rem auto; /* Center the image */
+  border: 3px solid #ff69b4; /* Pink border */
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.4); /* Pink glow */
+  border-radius: 12px; /* Rounded corners */
+  max-width: 100%; /* Responsive image width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* --- Article Block --- */
+article {
+  background-color: #ffe4ec; /* Soft blush pink */
+  padding: 2rem; /* Internal spacing */
+  border-left: 5px solid #ff69b4; /* Bold left accent in pink */
+  border-radius: 16px; /* Rounded corners */
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center; /* Center text */
+  background-color: #ffb6c1; /* Match header background */
+  padding: 1.5rem 1rem; /* More breathing room */
+  margin-top: 2rem; /* Space above footer */
+  border-top: 3px dashed #ff69b4; /* Top border in dashed pink */
+  color: #a84e6c; /* Slightly dimmed rose text */
+  font-size: 14px; /* Mobile-friendly font */
+  line-height: 1.6; /* Better spacing between lines */
+  word-wrap: break-word; /* Prevents text overflow */
+  font-weight: bold; /* Make all footer text bold */
+}
+
+footer a {
+  color: #a84e6c; /* Match footer text color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem; /* Shrink heading on smaller screens */
+  }
+
+  nav {
+    flex-direction: row; /* Keep nav links horizontal */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    justify-content: center; /* Center links */
+    gap: 0.5rem; /* Slightly tighter spacing */
+  }
+
+  nav a {
+    font-size: 0.95rem; /* Slightly smaller text on mobile */
+    padding: 0.3rem 0.6rem; /* Add touch-friendly spacing */
+  }
+
+  main {
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  footer {
+    font-size: 13px; /* Slightly smaller font */
+    padding: 1rem; /* Adjust padding */
+  }
+}
+
+/* --- Image hover responsiveness --- */
+img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  transition: transform 0.3s; /* Smooth transition */
+}
+img:active {
+  transform: scale(0.95); /* Slight shrink on click */
+  transition: transform 0.1s; /* Quick transition */
+}
+
